@@ -32,9 +32,10 @@ const lists = [
       price: 400,
     },
 ];
-console.log(lists[0].name);
+//console.log(lists[0].name);
 
 for(let i=0; i<lists.length; i++){
-  const content = `<div><img src="images/${lists[i]}" alt=""></div>`;
+  const content = `<div><img src="images/${lists[i].img}" alt="">
+  <h2>${lists[i].name}</h2><p>${lists[i].price}円</p></div>`;
   menu.insertAdjacentHTML('beforeend', content);
 }
