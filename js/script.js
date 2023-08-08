@@ -1,13 +1,11 @@
-let letName = 'マナ';
-letName = 'メアリー';
-console.log(letName)
-
-const constName = '大本';
-constName = '高橋';
-console.log(constName);
-
-/*
 const menu = document.querySelector('#menu');
+
+const strawberry = {
+  name: 'イチゴ',
+  img: 'strawberry.jpg',
+  price: 450,
+};
+console.log(strawberry);
 
 const lists = [
   'strawberry.jpg',
@@ -23,4 +21,3 @@ for(let i=0; i<lists.length; i++){
   const content = `<div><img src="images/${lists[i]}" alt=""></div>`;
   menu.insertAdjacentHTML('beforeend', content);
 }
-*/
