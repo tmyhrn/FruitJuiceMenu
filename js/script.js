@@ -1,3 +1,8 @@
+for(let i = 1; i <=10; i++){
+  console.log(`${i}回目のこんにちは！`);
+}
+
+/*
 const menu = document.querySelector('#menu');
 
 const lists = [
@@ -20,3 +25,4 @@ const content = `<div><img src="images/${lists[0]}" alt=""></div>
 
 //menu.textContent = content;
 menu.insertAdjacentHTML('beforeend', content);
+*/
