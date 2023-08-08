@@ -1,8 +1,3 @@
-for(let i = 1; i <=10; i++){
-  console.log(`${i}回目のこんにちは！`);
-}
-
-/*
 const menu = document.querySelector('#menu');
 
 const lists = [
@@ -13,16 +8,9 @@ const lists = [
   'fig.jpg',
   'apple.jpg',
 ];
-//console.log(lists[0]);
+//console.log(lists.length);
 
-const content = `<div><img src="images/${lists[0]}" alt=""></div>
-<div><img src="images/${lists[1]}" alt=""></div>
-<div><img src="images/${lists[2]}" alt=""></div>
-<div><img src="images/${lists[3]}" alt=""></div>
-<div><img src="images/${lists[4]}" alt=""></div>
-<div><img src="images/${lists[5]}" alt=""></div>
-`;
-
-//menu.textContent = content;
-menu.insertAdjacentHTML('beforeend', content);
-*/
+for(let i=0; i<lists.length; i++){
+  const content = `<div><img src="images/${lists[i]}" alt=""></div>`;
+  menu.insertAdjacentHTML('beforeend', content);
+}
