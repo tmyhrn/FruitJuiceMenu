@@ -5,7 +5,8 @@ const strawberry = {
   img: 'strawberry.jpg',
   price: 450,
 };
-console.log(strawberry);
+console.log(strawberry.name);
+console.log(strawberry['img']);
 
 const lists = [
   'strawberry.jpg',
